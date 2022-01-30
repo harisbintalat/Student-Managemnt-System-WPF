@@ -1,0 +1,67 @@
+﻿<Window x:Class="LabAssignment4.Student_Management"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LabAssignment4"
+        mc:Ignorable="d"
+        Title="Student_Management" Height="700" Width="1000" WindowStartupLocation="CenterScreen">
+
+
+    <Grid Background="#FFF9F9F9" Margin="3,0,-3,0">
+        <Label x:Name="lblhead" Content="Registered Students" Margin="124,109,616,511" FontSize="22" FontWeight="Bold"/>
+        <Label x:Name="lblheader" Content="Student Management System" Margin="282,22,258,589" FontSize="30" FontWeight="Bold"/>
+        <Grid HorizontalAlignment="Left" Height="73" Margin="671,419,0,0" VerticalAlignment="Top" Width="79">
+            <Button Name="btnAnswer6" Background="White" Click="btnAnswer6_Click">
+                <Image Source="couse.png" Width="79" OpacityMask="WhiteSmoke"></Image>
+            </Button>
+            <Label Content="Course" VerticalAlignment="Bottom" Margin="15,0,8,-19" />
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="73" Margin="755,419,0,0" VerticalAlignment="Top" Width="79">
+            <Button Name="btnAnswer7" Background="White" Click="btnAnswer7_Click">
+                <Image Source="std.jpg" Width="79" OpacityMask="White"></Image>
+            </Button>
+            <Label Content="Student" VerticalAlignment="Bottom" Margin="13,0,14,-18" />
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="73" VerticalAlignment="Top" Width="79" Margin="671,516,0,0">
+            <Button Click="Button_Click_8" Background="White">
+                <Image Source="unstud.png" Width="79" OpacityMask="White"/>
+            </Button>
+            <Label Content="Not Assigned &#xD;&#xA;Students" VerticalAlignment="Bottom" Margin="87,0,-97,-36" />
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="73" VerticalAlignment="Top" Width="79" Margin="756,516,0,0">
+            <Button Background="White" Click="Button_Click_9">
+                <Image Source="uncourse.png" Width="79" OpacityMask="White"/>
+            </Button>
+            <Label Content="Not Assigned&#xD;&#xA; Courses" VerticalAlignment="Bottom" Margin="-83,0,75,-35" Height="41" RenderTransformOrigin="0.51,0.81" />
+        </Grid>
+        <ListBox x:Name="reglistbox" HorizontalAlignment="Left" Height="451" Margin="24,163,0,0" VerticalAlignment="Top" Width="442" ItemTemplate="{DynamicResource DataTemplate1}">
+            <ListBox.Resources>
+                <DataTemplate x:Key="DataTemplate1">
+                    <Grid Height="88" Width="408">
+                        <Label Content="{Binding student}" HorizontalAlignment="Left" Margin="0" VerticalAlignment="Top" Width="198" FontSize="18" Height="46"/>
+                        <Label Content="{Binding Registration}" HorizontalAlignment="Left" Margin="0,46,0,0" VerticalAlignment="Top" Width="198" FontSize="14" Height="32"/>
+                        <Label x:Name="lblcourse" Content="{Binding course}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="203,0,0,0" Height="46" Width="195" RenderTransformOrigin="0.462,0.353" FontSize="14"/>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.Resources>
+        </ListBox>
+        <ListBox x:Name="searchlist" Margin="500,279,36,281" ItemTemplate="{DynamicResource DataTemplate1}">
+            <ListBox.Resources>
+                <DataTemplate x:Key="DataTemplate1">
+                    <Grid Height="106" Width="339">
+                        <Label Content="{Binding bindveriable1}" HorizontalAlignment="Left" Margin="10,5,0,0" VerticalAlignment="Top" Width="179" Height="40" FontSize="16"/>
+                        <Label Content="{Binding bindveriable2}" HorizontalAlignment="Left" Margin="10,45,0,0" VerticalAlignment="Top" Width="179" Height="40" FontSize="16"/>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.Resources>
+        </ListBox>
+        <Button x:Name="btnsearch" Content="Enter" Margin="691,228,177,401" FontSize="20" Click="btnsearch_Click"/>
+        <Label x:Name="lblsearch" Content="Search:" Margin="580,-124,330,749" RenderTransformOrigin="-0.914,0.986" FontSize="20"/>
+        <TextBox x:Name="txtboxsearch" Height="32" Margin="660,160,134,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
+        <RadioButton x:Name="radiostudent" Content="Student" HorizontalAlignment="Left" Margin="670,200,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <RadioButton x:Name="radiocourse" Content="Course" HorizontalAlignment="Left" Margin="765,200,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label x:Name="lblsearch1" Content="Search " Margin="713,109,177,0" VerticalAlignment="Top" Height="49" FontSize="22" FontWeight="Bold"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,31 @@
+C:\Users\UNHC\source\repos\LabAssignment4\LabAssignment4\bin\Debug\LabAssignment4.exe.config
+C:\Users\UNHC\source\repos\LabAssignment4\LabAssignment4\bin\Debug\LabAssignment4.exe
+C:\Users\UNHC\source\repos\LabAssignment4\LabAssignment4\bin\Debug\LabAssignment4.pdb
+C:\Users\UNHC\source\repos\LabAssignment4\LabAssignment4\obj\Debug\LabAssignment4.csprojAssemblyReference.cache
+C:\Users\UNHC\source\repos\LabAssignment4\LabAssignment4\obj\Debug\Student Management.g.cs
+C:\Users\UNHC\source\repos\LabAssignment4\LabAssignment4\obj\Debug\App.g.cs
+C:\Users\UNHC\source\repos\LabAssignment4\LabAssignment4\obj\Debug\LabAssignment4_MarkupCompile.cache
+C:\Users\UNHC\source\repos\LabAssignment4\LabAssignment4\obj\Debug\LabAssignment4_MarkupCompile.lref
+C:\Users\UNHC\source\repos\LabAssignment4\LabAssignment4\obj\Debug\Student Management.baml
+C:\Users\UNHC\source\repos\LabAssignment4\LabAssignment4\obj\Debug\LabAssignment4.g.resources
+C:\Users\UNHC\source\repos\LabAssignment4\LabAssignment4\obj\Debug\LabAssignment4.Properties.Resources.resources
+C:\Users\UNHC\source\repos\LabAssignment4\LabAssignment4\obj\Debug\LabAssignment4.csproj.GenerateResource.cache
+C:\Users\UNHC\source\repos\LabAssignment4\LabAssignment4\obj\Debug\LabAssignment4.csproj.CoreCompileInputs.cache
+C:\Users\UNHC\source\repos\LabAssignment4\LabAssignment4\obj\Debug\LabAssignment4.exe
+C:\Users\UNHC\source\repos\LabAssignment4\LabAssignment4\obj\Debug\LabAssignment4.pdb
+C:\Users\UNHC\source\repos\LabAssignment4\LabAssignment4\bin\Debug\StudentManagement.mdf
+C:\Users\UNHC\source\repos\LabAssignment4\LabAssignment4\bin\Debug\StudentManagement_log.ldf
+C:\Users\UNHC\source\repos\LabAssignment4\LabAssignment4\bin\Debug\EntityFramework.xml
+C:\Users\UNHC\source\repos\LabAssignment4\LabAssignment4\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\UNHC\source\repos\LabAssignment4\LabAssignment4\obj\Debug\Courses.g.cs
+C:\Users\UNHC\source\repos\LabAssignment4\LabAssignment4\obj\Debug\Students.g.cs
+C:\Users\UNHC\source\repos\LabAssignment4\LabAssignment4\obj\Debug\LabAssignment4_Content.g.cs
+C:\Users\UNHC\source\repos\LabAssignment4\LabAssignment4\obj\Debug\Courses.baml
+C:\Users\UNHC\source\repos\LabAssignment4\LabAssignment4\obj\Debug\Students.baml
+C:\Users\UNHC\source\repos\LabAssignment4\LabAssignment4\obj\Debug\LabAssignment4.csproj.CopyComplete
+C:\Users\UNHC\source\repos\LabAssignment4\LabAssignment4\obj\Debug\NotAssignedCourses.g.cs
+C:\Users\UNHC\source\repos\LabAssignment4\LabAssignment4\obj\Debug\NotAssignedStudents.g.cs
+C:\Users\UNHC\source\repos\LabAssignment4\LabAssignment4\obj\Debug\NotAssignedCourses.baml
+C:\Users\UNHC\source\repos\LabAssignment4\LabAssignment4\obj\Debug\NotAssignedStudents.baml
+C:\Users\UNHC\source\repos\LabAssignment4\LabAssignment4\bin\Debug\bin\Debug\StudentManagement.mdf
+C:\Users\UNHC\source\repos\LabAssignment4\LabAssignment4\bin\Debug\bin\Debug\StudentManagement_log.ldf
